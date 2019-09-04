@@ -29,7 +29,7 @@ public class CalcRMI extends UnicastRemoteObject implements CalcInterface {
         } catch (Exception e) {
             System.out.println("Realizou subtração de " + x + " - " + y);
         }
-        return x + y;
+        return x - y;
     }
 
     @Override
